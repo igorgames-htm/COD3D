@@ -7,4 +7,4 @@ function randomString(length)
     end
     return result
 end
-loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/6504cdd358593b8fc8ec638f0f9aee674ae262b109595c5236520f3f3e6dd923/download?"..randomString(16)))()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/igorgames-htm/1f6b9c10cb476cc32d212172c7a1f4f2/raw/5216b45338188563134a82d03f7547d815254e6e/rivals.lua?"..randomString(16)))()
